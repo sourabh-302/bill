@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from './navbar'
+import Navbar from './Navbar'
 import girl from "../assets/image/girl.png"
 import dots from "../assets/image/dots.png"
 import bg from "../assets/image/bg.png"
-import Input from './common/input'
+import Input from './common/Input'
 import Logos from './logos'
 import SwitchingEnergy from './SwitchingEnergy '
 import Simplestep from './Simplestep'

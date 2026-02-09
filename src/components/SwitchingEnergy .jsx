@@ -1,6 +1,6 @@
 import React from 'react'
 import combo from "../assets/image/combo.png"
-import Button from './common/button'
+import Button from './common/Button'
 function SwitchingEnergy () {
   return (
 <section>

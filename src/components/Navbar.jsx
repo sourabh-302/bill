@@ -1,39 +1,3 @@
-// import React from 'react'
-// import logo from "../assets/image/logo.png"
-// import Button from './common/button'
- 
-// function navbar() {
-//     return (
-//         <div>
-//             <section>
-//                 <div className='max-w-285 mx-auto px-3'>
-//                     <div className='flex flex-row justify-between pt-4'>
-//                          <div className=''>
-//                             <img src={logo} />
-//                          </div>
-//                         <div className=' flex flex-row  gap-6   items-center'>
-
-//                             <a className=' font-normal text-[16px] leading-[100%] tracking-normal capitalize text-white cursor-pointer  relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-white after:transition-all hover:after:w-full'>About</a>
-//                             <a className=' font-normal text-[16px] leading-[100%] tracking-normal capitalize text-white cursor-pointer  relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-white after:transition-all hover:after:w-full'>How It Works</a>
-//                             <a className=' font-normal text-[16px] leading-[100%] tracking-normal capitalize text-white cursor-pointer  relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-white after:transition-all hover:after:w-full'>Services</a>
-//                             <a className=' font-normal text-[16px] leading-[100%] tracking-normal capitalize text-white cursor-pointer  relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-white after:transition-all hover:after:w-full'>Testimonials</a>
-//                             <a className=' font-normal text-[16px] leading-[100%] tracking-normal capitalize text-white cursor-pointer  relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-white after:transition-all hover:after:w-full'>Why Us</a>
-//                             <a className=' font-normal text-[16px] leading-[100%] tracking-normal capitalize text-white cursor-pointer  relative after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-white after:transition-all hover:after:w-full'>FAQ</a>
-
-//                         </div>
-//                         <div>
-//                             <Button text="  Get Started  "  className="text-[rgba(0,23,31,1)]  bg-white py-3 px-5 rounded-tr-[50px] rounded-br-[50px] rounded-bl-[40px] font-['Helvetica'] font-boldtext-[16px] leading-[100%] tracking-normal capitalize"/>
-//                         </div>
-//                     </div>
-                    
-//                 </div>
-//             </section>
-//         </div>
-//     )
-// }
-
-// export default navbar
-
 import React, { useState, useEffect } from "react"
 import logo from "../assets/image/logo.png"
 import Button from "./common/button"
@@ -41,7 +5,7 @@ import Button from "./common/button"
 function Navbar() {
   const [open, setOpen] = useState(false)
 
-  // Disable scroll when menu is open
+ 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "auto"
   }, [open])
