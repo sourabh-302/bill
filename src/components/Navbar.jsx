@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import logo from "../assets/image/logo.png"
-import Button from "./common/button"
+import Button from "./common/Button"
 
 function Navbar() {
   const [open, setOpen] = useState(false)
