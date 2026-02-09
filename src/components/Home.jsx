@@ -11,7 +11,7 @@ import Simplestep from './Simplestep'
 
 
 
-function home() {
+function Home() {
   return (
     <section  >
       <div className=" bg-cover bg-center min-h-screen min-[991.98px]:max-h-202.5" style={{ backgroundImage: `url(${bg})` }}>
@@ -44,4 +44,4 @@ function home() {
   )
 }
 
-export default home
+export default Home
